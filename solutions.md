@@ -24,3 +24,31 @@ public class Main
 	}
 }
 ```
+**2. Reverse String**
+``` Java
+import java.util.Scanner;
+public class Main
+{
+	public static void main(String[] args) {
+	    Scanner input= new Scanner(System.in);
+	   while(true){
+	      System.out.print("Original String: ");
+	      String str= input.next();
+	      String quote= " ";
+		 
+		  
+		  for(int i=0; i< str.length(); i++){
+		      char ch= str.charAt(i);
+		      quote= ch+quote;
+		  }
+		  System.out.println("Reversed string is "+ quote);
+	   }
+	   
+	    
+		
+		
+		
+		
+	}
+}
+```
