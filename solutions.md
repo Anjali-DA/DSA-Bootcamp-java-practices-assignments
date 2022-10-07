@@ -1,4 +1,4 @@
-**1.** Calculate electricity bill
+**1. Calculate electricity bill**
 ``` Java
 import java.util.Scanner;
 public class Main
@@ -43,12 +43,8 @@ public class Main
 		  }
 		  System.out.println("Reversed string is "+ quote);
 	   }
-	   
-	    
-		
-		
-		
-		
+
 	}
 }
+
 ```
